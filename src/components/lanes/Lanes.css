@@ -1,0 +1,31 @@
+.swim-lane{
+    border-radius: 5px;
+    border: 0px solid gray;
+    box-shadow: 0 0px 0px 0;
+    margin: 10px;
+    background-color: white;
+    flex: 1
+}
+
+.lane-title{
+    padding: 8px;
+    border-bottom: 0px solid gray;
+    border-radius: 0px;
+    font-weight: 100;
+}
+
+.to-do{
+    box-shadow: inset 10px 0 0 0 #8aadf8;
+}
+
+.development{
+    box-shadow: inset 10px 0 0 0 #3a73ee;
+}
+
+.testing{
+    box-shadow: inset 10px 0 0 0 #2532f0;
+}
+
+.done{
+    box-shadow: inset 10px 0 0 0 #082eaa;
+}

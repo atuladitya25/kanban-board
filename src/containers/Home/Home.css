@@ -1,0 +1,84 @@
+.home{
+    background-color: rgb(216, 219, 221);
+}
+
+.lanes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.title{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100;
+    background-color: cadetblue;
+}
+
+.action-bar{
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 100;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.search{
+    padding: 2px;
+    font-size: 15px;
+    font-weight: 100;
+    color: cadetblue;
+    border-color: cadetblue;
+}
+
+.search-box {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: inherit;
+    outline: none;
+}
+
+.search:hover {
+    color: navy;
+    border-color: navy;
+}
+
+.search:focus {
+    color: navy;
+    border-color: navy;
+}
+
+.search-icon {
+    color: inherit;
+    position: relative;
+    top: 4px;
+    margin-right: 3px;
+}
+
+.add-button{
+    padding: 2px;
+    font-size: 15px;
+    color: cadetblue;
+    font-weight: 100;
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.add-button:hover{
+    color: navy;
+}
+
+.add-icon{
+    padding: 2px;
+    position: relative;
+    top: 4px;
+    font-size: 15px;
+    font-weight: 70;
+}

@@ -1,0 +1,4 @@
+.card-holder{
+    display: flex;
+    flex-flow: row wrap;
+}

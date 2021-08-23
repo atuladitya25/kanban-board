@@ -1,0 +1,67 @@
+.card{
+    border-radius: 3px;
+    margin: 10px;
+    background-color: white;
+    width: 200px;
+}
+
+.story-name{
+    padding: 8px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 0px;
+    font-weight: 100;
+}
+
+.one{
+    box-shadow: 0px 0px 2px 0px gray, inset 0 5px 0 0 #dd1616;
+}
+
+.two{
+    box-shadow: 0px 0px 2px 0px gray, inset 0 5px 0 0 #e68e2a;
+}
+
+.three{
+    box-shadow: 0px 0px 2px 0px gray, inset 0 5px 0 0 #ebdd19;
+}
+
+.four{
+    box-shadow: 0px 0px 2px 0px gray, inset 0 5px 0 0 #1d9712;
+}
+
+.quick-stat{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-weight: 100;
+    color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+.blocked{
+    position: relative;
+    top: 3px;
+    color: red;
+}
+
+.not-blocked{
+    position: relative;
+    top: 3px;
+    color: green;
+}
+
+.story-id{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    color: gray;
+}
+
+.clickable-div{
+    cursor: pointer;
+}
